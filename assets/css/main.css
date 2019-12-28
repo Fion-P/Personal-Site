@@ -1862,11 +1862,12 @@ input, select, textarea {
 					/* width: auto; */
 					width: 100%;
 					height: auto;
-					opacity: 0.95;
+					opacity: 0.92;
 				}
 
 				.box.style1 .image img:hover {
 					opacity: 1;
+					transition: 300ms ease;
 				}
 
 			.box.style1 .inner > :last-child {
