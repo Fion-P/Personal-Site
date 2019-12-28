@@ -1747,7 +1747,8 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
+		/* background: #35b88f; */
+		background: rgb(225,205,196);
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
@@ -1764,7 +1765,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #45c89f;
+			background: rgb(235, 221, 216);
 		}
 
 		input[type="button"].style2,
@@ -1841,7 +1842,8 @@ input, select, textarea {
 		}
 
 		.box.style1 {
-			background: rgb(251, 233, 204);
+			/* background: rgb(251, 233, 204); */
+			background: rgb(255, 250, 240);
 			padding: 3em;
 		}
 
@@ -2129,7 +2131,8 @@ input, select, textarea {
 
 		#banner p {
 			margin: 0;
-			padding: 0 20px;
+			/* padding: 0 20px; */
+			padding: 0 3.2em;
 		}
 
 		#banner footer {
@@ -2369,8 +2372,8 @@ input, select, textarea {
 		/* Basic */
 
 			body {
-				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+				background-color: rgb(225,205,196);
+				/* background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg"); */
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
@@ -2561,6 +2564,7 @@ input, select, textarea {
 							position: relative;
 							height: auto;
 							width: 100%;
+							opacity: 1;
 						}
 
 					.box.style1 .inner {
