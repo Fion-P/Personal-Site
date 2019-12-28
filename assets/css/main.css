@@ -83,8 +83,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-color: rgb(225,205,196);
+		/* background-image: url("images/overlay.png"); */
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -1841,7 +1841,7 @@ input, select, textarea {
 		}
 
 		.box.style1 {
-			background: #fff;
+			background: rgb(251, 233, 204);
 			padding: 3em;
 		}
 
@@ -1858,8 +1858,15 @@ input, select, textarea {
 				.box.style1 .image img {
 					position: absolute;
 					top: 0;
-					height: 100%;
-					width: auto;
+					/* height: 100%; */
+					/* width: auto; */
+					width: 100%;
+					height: auto;
+					opacity: 0.95;
+				}
+
+				.box.style1 .image img:hover {
+					opacity: 1;
 				}
 
 			.box.style1 .inner > :last-child {
@@ -1999,8 +2006,9 @@ input, select, textarea {
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 0;
-		padding: 14em 0 14em 0;
+		padding: 14em 0 13em 0;
 		cursor: default;
+		background: url("/images/AlamoSquareBanner.jpg") center 0px / cover no-repeat fixed;
 	}
 
 		#header header {
@@ -2010,7 +2018,7 @@ input, select, textarea {
 
 			#header header h1 {
 				font-weight: 600;
-				font-size: 2em;
+				font-size: 2.75em;
 				letter-spacing: 10px;
 			}
 
@@ -2019,6 +2027,7 @@ input, select, textarea {
 				color: rgba(255, 255, 255, 0.75);
 				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
 				font-size: 1em;
+				font-weight: 600;
 				text-transform: uppercase;
 				letter-spacing: 3px;
 				padding: 0;
@@ -2095,7 +2104,8 @@ input, select, textarea {
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background:  #ac8484 url("images/banner.svg") bottom center no-repeat;
+		/* background:  #b99494 url("images/banner.svg") bottom center no-repeat; */
+		background:  #b99494 url("images/banner.svg") bottom center no-repeat;
 		padding: 2em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
@@ -2107,7 +2117,7 @@ input, select, textarea {
 		}
 
 		#banner header {
-			margin: 0 0 1.5em 0;
+			margin: 0 0 0.5em 0;
 		}
 
 			#banner header h2 {
@@ -2392,6 +2402,7 @@ input, select, textarea {
 
 				.box.style1 {
 					padding: 2.5em 2em 2.5em 2em;
+					/* background: rgb(253,218,180); */
 				}
 
 					.box.style1.right .inner {
@@ -2573,7 +2584,8 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 6em 0 6em 0;
+				/* padding: 6em 0 6em 0; */
+				padding: 10em 0 17em 0;
 			}
 
 				#header header {
@@ -2582,6 +2594,7 @@ input, select, textarea {
 				}
 
 					#header header h1 {
+						/* font-size: 1.75em; */
 						font-size: 1.75em;
 						letter-spacing: 6px;
 					}
