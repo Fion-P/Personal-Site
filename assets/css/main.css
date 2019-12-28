@@ -303,6 +303,7 @@ input, select, textarea {
 
 		.row > .col-3 {
 			width: 25%;
+			background: rgb(255, 250, 240);
 		}
 
 		.row > .off-3 {
@@ -2668,3 +2669,9 @@ input, select, textarea {
 			}
 
 	}
+
+	.col-3 i {
+		font-size: 6em;
+		color: #3a3939;
+    /* z-index: 100; */
+}

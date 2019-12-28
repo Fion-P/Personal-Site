@@ -90,16 +90,16 @@
 		}
 
 	// Poptrox.
-		$('.gallery').poptrox({
-			useBodyOverflow: false,
-			usePopupEasyClose: false,
-			overlayColor: '#0a1919',
-			overlayOpacity: 0.75,
-			usePopupDefaultStyling: false,
-			usePopupCaption: true,
-			popupLoaderText: '',
-			windowMargin: 10,
-			usePopupNav: true
-		});
+		// $('.gallery').poptrox({
+		// 	useBodyOverflow: false,
+		// 	usePopupEasyClose: false,
+		// 	overlayColor: '#0a1919',
+		// 	overlayOpacity: 0.75,
+		// 	usePopupDefaultStyling: false,
+		// 	usePopupCaption: true,
+		// 	popupLoaderText: '',
+		// 	windowMargin: 10,
+		// 	usePopupNav: true
+		// });
 
 })(jQuery);
