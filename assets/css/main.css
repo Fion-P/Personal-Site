@@ -2442,7 +2442,7 @@ input, select, textarea {
 
 			#header {
 				padding: 10em 0 12em 0;
-				background: url("https://i.pinimg.com/originals/36/c7/d1/36c7d142533fd1e169dfb4f39a3d38d6.jpg") center 0px / cover no-repeat fixed;
+				background: url("https://i.pinimg.com/originals/36/c7/d1/36c7d142533fd1e169dfb4f39a3d38d6.jpg") fixed;
 			}
 
 		/* Banner */
@@ -2601,7 +2601,7 @@ input, select, textarea {
 			#header {
 				/* padding: 6em 0 6em 0; */
 				padding: 10em 0 17em 0;
-				background: url("https://i.pinimg.com/originals/36/c7/d1/36c7d142533fd1e169dfb4f39a3d38d6.jpg");
+				background: url("https://i.pinimg.com/originals/36/c7/d1/36c7d142533fd1e169dfb4f39a3d38d6.jpg") fixed;
 				/* center 0px / cover no-repeat fixed; */
 				/* background: url(https://i.pinimg.com/originals/36/c7/d1/36c7d14….jpg);
 				background-position: center center;
